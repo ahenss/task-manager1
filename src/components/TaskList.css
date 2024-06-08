@@ -1,0 +1,30 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-item.completed {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+  }
+  
+  .task-item button {
+    margin-right: 5px;
+  }
+  
